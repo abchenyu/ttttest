@@ -1,0 +1,651 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD0080261D387E1D002E7A3A /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD0080251D387E1D002E7A3A /* bg.png */; };
+		DD790F2C1D336EB600437A25 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F2B1D336EB600437A25 /* AppDelegate.m */; };
+		DD790F2F1D336EB600437A25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F2E1D336EB600437A25 /* main.m */; };
+		DD790F321D336EB600437A25 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F311D336EB600437A25 /* ViewController.m */; };
+		DD790F341D336EB600437A25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD790F331D336EB600437A25 /* Assets.xcassets */; };
+		DD790F371D336EB600437A25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD790F351D336EB600437A25 /* Main.storyboard */; };
+		DD790F421D336EB600437A25 /* prizeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F411D336EB600437A25 /* prizeTests.m */; };
+		DD790F4D1D336EB600437A25 /* prizeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F4C1D336EB600437A25 /* prizeUITests.m */; };
+		DD790F781D3370A900437A25 /* JKDBHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F621D3370A900437A25 /* JKDBHelper.m */; };
+		DD790F791D3370A900437A25 /* JKDBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F641D3370A900437A25 /* JKDBModel.m */; };
+		DD790F7B1D3370A900437A25 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F6B1D3370A900437A25 /* FMDatabase.m */; };
+		DD790F7C1D3370A900437A25 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F6D1D3370A900437A25 /* FMDatabaseAdditions.m */; };
+		DD790F7D1D3370A900437A25 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F6F1D3370A900437A25 /* FMDatabasePool.m */; };
+		DD790F7E1D3370A900437A25 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F711D3370A900437A25 /* FMDatabaseQueue.m */; };
+		DD790F7F1D3370A900437A25 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F741D3370A900437A25 /* FMResultSet.m */; };
+		DD790F801D3370A900437A25 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD790F751D3370A900437A25 /* Info.plist */; };
+		DD790F831D3370F100437A25 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F821D3370F100437A25 /* Person.m */; };
+		DD790F861D33736200437A25 /* PrizeLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = DD790F851D33736200437A25 /* PrizeLevel.m */; };
+		DD790F881D33859700437A25 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DD790F871D33859700437A25 /* libsqlite3.0.tbd */; };
+		DD790F8D1D339F2C00437A25 /* color_clear.png in Resources */ = {isa = PBXBuildFile; fileRef = DD790F891D339F2C00437A25 /* color_clear.png */; };
+		DD790F8E1D339F2C00437A25 /* color_gray_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = DD790F8A1D339F2C00437A25 /* color_gray_bg.png */; };
+		DD790F8F1D339F2C00437A25 /* color_red.png in Resources */ = {isa = PBXBuildFile; fileRef = DD790F8B1D339F2C00437A25 /* color_red.png */; };
+		DD790F901D339F2C00437A25 /* color_white.png in Resources */ = {isa = PBXBuildFile; fileRef = DD790F8C1D339F2C00437A25 /* color_white.png */; };
+		DDD683FA1D3646DC007CF59E /* color_yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD683F91D3646DC007CF59E /* color_yellow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD790F3E1D336EB600437A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD790F1F1D336EB600437A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD790F261D336EB600437A25;
+			remoteInfo = prize;
+		};
+		DD790F491D336EB600437A25 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD790F1F1D336EB600437A25 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD790F261D336EB600437A25;
+			remoteInfo = prize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD0080251D387E1D002E7A3A /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		DD790F271D336EB600437A25 /* prize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD790F2A1D336EB600437A25 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DD790F2B1D336EB600437A25 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DD790F2E1D336EB600437A25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD790F301D336EB600437A25 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DD790F311D336EB600437A25 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DD790F331D336EB600437A25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD790F361D336EB600437A25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD790F381D336EB600437A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD790F3D1D336EB600437A25 /* prizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD790F411D336EB600437A25 /* prizeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prizeTests.m; sourceTree = "<group>"; };
+		DD790F431D336EB600437A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD790F481D336EB600437A25 /* prizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD790F4C1D336EB600437A25 /* prizeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prizeUITests.m; sourceTree = "<group>"; };
+		DD790F4E1D336EB600437A25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD790F611D3370A900437A25 /* JKDBHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBHelper.h; sourceTree = "<group>"; };
+		DD790F621D3370A900437A25 /* JKDBHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBHelper.m; sourceTree = "<group>"; };
+		DD790F631D3370A900437A25 /* JKDBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKDBModel.h; sourceTree = "<group>"; };
+		DD790F641D3370A900437A25 /* JKDBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKDBModel.m; sourceTree = "<group>"; };
+		DD790F6A1D3370A900437A25 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		DD790F6B1D3370A900437A25 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		DD790F6C1D3370A900437A25 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		DD790F6D1D3370A900437A25 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		DD790F6E1D3370A900437A25 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		DD790F6F1D3370A900437A25 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		DD790F701D3370A900437A25 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		DD790F711D3370A900437A25 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		DD790F721D3370A900437A25 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		DD790F731D3370A900437A25 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		DD790F741D3370A900437A25 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		DD790F751D3370A900437A25 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD790F811D3370F100437A25 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		DD790F821D3370F100437A25 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		DD790F841D33736200437A25 /* PrizeLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeLevel.h; sourceTree = "<group>"; };
+		DD790F851D33736200437A25 /* PrizeLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeLevel.m; sourceTree = "<group>"; };
+		DD790F871D33859700437A25 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		DD790F891D339F2C00437A25 /* color_clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_clear.png; sourceTree = "<group>"; };
+		DD790F8A1D339F2C00437A25 /* color_gray_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_gray_bg.png; sourceTree = "<group>"; };
+		DD790F8B1D339F2C00437A25 /* color_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_red.png; sourceTree = "<group>"; };
+		DD790F8C1D339F2C00437A25 /* color_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_white.png; sourceTree = "<group>"; };
+		DDD683F91D3646DC007CF59E /* color_yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = color_yellow.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD790F241D336EB600437A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD790F881D33859700437A25 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F3A1D336EB600437A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F451D336EB600437A25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD790F1E1D336EB600437A25 = {
+			isa = PBXGroup;
+			children = (
+				DD790F871D33859700437A25 /* libsqlite3.0.tbd */,
+				DD790F291D336EB600437A25 /* prize */,
+				DD790F401D336EB600437A25 /* prizeTests */,
+				DD790F4B1D336EB600437A25 /* prizeUITests */,
+				DD790F281D336EB600437A25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD790F281D336EB600437A25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F271D336EB600437A25 /* prize.app */,
+				DD790F3D1D336EB600437A25 /* prizeTests.xctest */,
+				DD790F481D336EB600437A25 /* prizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD790F291D336EB600437A25 /* prize */ = {
+			isa = PBXGroup;
+			children = (
+				DD0080251D387E1D002E7A3A /* bg.png */,
+				DDD683F91D3646DC007CF59E /* color_yellow.png */,
+				DD790F891D339F2C00437A25 /* color_clear.png */,
+				DD790F8A1D339F2C00437A25 /* color_gray_bg.png */,
+				DD790F8B1D339F2C00437A25 /* color_red.png */,
+				DD790F8C1D339F2C00437A25 /* color_white.png */,
+				DD790F5D1D3370A900437A25 /* DataBase */,
+				DD790F2A1D336EB600437A25 /* AppDelegate.h */,
+				DD790F2B1D336EB600437A25 /* AppDelegate.m */,
+				DD790F301D336EB600437A25 /* ViewController.h */,
+				DD790F311D336EB600437A25 /* ViewController.m */,
+				DD790F331D336EB600437A25 /* Assets.xcassets */,
+				DD790F351D336EB600437A25 /* Main.storyboard */,
+				DD790F381D336EB600437A25 /* Info.plist */,
+				DD790F2D1D336EB600437A25 /* Supporting Files */,
+				DD790F811D3370F100437A25 /* Person.h */,
+				DD790F821D3370F100437A25 /* Person.m */,
+				DD790F841D33736200437A25 /* PrizeLevel.h */,
+				DD790F851D33736200437A25 /* PrizeLevel.m */,
+			);
+			path = prize;
+			sourceTree = "<group>";
+		};
+		DD790F2D1D336EB600437A25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F2E1D336EB600437A25 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD790F401D336EB600437A25 /* prizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F411D336EB600437A25 /* prizeTests.m */,
+				DD790F431D336EB600437A25 /* Info.plist */,
+			);
+			path = prizeTests;
+			sourceTree = "<group>";
+		};
+		DD790F4B1D336EB600437A25 /* prizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F4C1D336EB600437A25 /* prizeUITests.m */,
+				DD790F4E1D336EB600437A25 /* Info.plist */,
+			);
+			path = prizeUITests;
+			sourceTree = "<group>";
+		};
+		DD790F5D1D3370A900437A25 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F601D3370A900437A25 /* DBModel */,
+				DD790F671D3370A900437A25 /* FMDB */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		DD790F601D3370A900437A25 /* DBModel */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F611D3370A900437A25 /* JKDBHelper.h */,
+				DD790F621D3370A900437A25 /* JKDBHelper.m */,
+				DD790F631D3370A900437A25 /* JKDBModel.h */,
+				DD790F641D3370A900437A25 /* JKDBModel.m */,
+			);
+			path = DBModel;
+			sourceTree = "<group>";
+		};
+		DD790F671D3370A900437A25 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F681D3370A900437A25 /* extra */,
+				DD790F691D3370A900437A25 /* fmdb */,
+				DD790F761D3370A900437A25 /* sample */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+		DD790F681D3370A900437A25 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = extra;
+			sourceTree = "<group>";
+		};
+		DD790F691D3370A900437A25 /* fmdb */ = {
+			isa = PBXGroup;
+			children = (
+				DD790F6A1D3370A900437A25 /* FMDatabase.h */,
+				DD790F6B1D3370A900437A25 /* FMDatabase.m */,
+				DD790F6C1D3370A900437A25 /* FMDatabaseAdditions.h */,
+				DD790F6D1D3370A900437A25 /* FMDatabaseAdditions.m */,
+				DD790F6E1D3370A900437A25 /* FMDatabasePool.h */,
+				DD790F6F1D3370A900437A25 /* FMDatabasePool.m */,
+				DD790F701D3370A900437A25 /* FMDatabaseQueue.h */,
+				DD790F711D3370A900437A25 /* FMDatabaseQueue.m */,
+				DD790F721D3370A900437A25 /* FMDB.h */,
+				DD790F731D3370A900437A25 /* FMResultSet.h */,
+				DD790F741D3370A900437A25 /* FMResultSet.m */,
+				DD790F751D3370A900437A25 /* Info.plist */,
+			);
+			path = fmdb;
+			sourceTree = "<group>";
+		};
+		DD790F761D3370A900437A25 /* sample */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = sample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD790F261D336EB600437A25 /* prize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD790F511D336EB600437A25 /* Build configuration list for PBXNativeTarget "prize" */;
+			buildPhases = (
+				DD790F231D336EB600437A25 /* Sources */,
+				DD790F241D336EB600437A25 /* Frameworks */,
+				DD790F251D336EB600437A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = prize;
+			productName = prize;
+			productReference = DD790F271D336EB600437A25 /* prize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD790F3C1D336EB600437A25 /* prizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD790F541D336EB600437A25 /* Build configuration list for PBXNativeTarget "prizeTests" */;
+			buildPhases = (
+				DD790F391D336EB600437A25 /* Sources */,
+				DD790F3A1D336EB600437A25 /* Frameworks */,
+				DD790F3B1D336EB600437A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD790F3F1D336EB600437A25 /* PBXTargetDependency */,
+			);
+			name = prizeTests;
+			productName = prizeTests;
+			productReference = DD790F3D1D336EB600437A25 /* prizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD790F471D336EB600437A25 /* prizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD790F571D336EB600437A25 /* Build configuration list for PBXNativeTarget "prizeUITests" */;
+			buildPhases = (
+				DD790F441D336EB600437A25 /* Sources */,
+				DD790F451D336EB600437A25 /* Frameworks */,
+				DD790F461D336EB600437A25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD790F4A1D336EB600437A25 /* PBXTargetDependency */,
+			);
+			name = prizeUITests;
+			productName = prizeUITests;
+			productReference = DD790F481D336EB600437A25 /* prizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD790F1F1D336EB600437A25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈煜";
+				TargetAttributes = {
+					DD790F261D336EB600437A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					DD790F3C1D336EB600437A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD790F261D336EB600437A25;
+					};
+					DD790F471D336EB600437A25 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DD790F261D336EB600437A25;
+					};
+				};
+			};
+			buildConfigurationList = DD790F221D336EB600437A25 /* Build configuration list for PBXProject "prize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD790F1E1D336EB600437A25;
+			productRefGroup = DD790F281D336EB600437A25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD790F261D336EB600437A25 /* prize */,
+				DD790F3C1D336EB600437A25 /* prizeTests */,
+				DD790F471D336EB600437A25 /* prizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD790F251D336EB600437A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD790F341D336EB600437A25 /* Assets.xcassets in Resources */,
+				DD790F8E1D339F2C00437A25 /* color_gray_bg.png in Resources */,
+				DD0080261D387E1D002E7A3A /* bg.png in Resources */,
+				DD790F371D336EB600437A25 /* Main.storyboard in Resources */,
+				DD790F801D3370A900437A25 /* Info.plist in Resources */,
+				DD790F8D1D339F2C00437A25 /* color_clear.png in Resources */,
+				DDD683FA1D3646DC007CF59E /* color_yellow.png in Resources */,
+				DD790F901D339F2C00437A25 /* color_white.png in Resources */,
+				DD790F8F1D339F2C00437A25 /* color_red.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F3B1D336EB600437A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F461D336EB600437A25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD790F231D336EB600437A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD790F321D336EB600437A25 /* ViewController.m in Sources */,
+				DD790F2F1D336EB600437A25 /* main.m in Sources */,
+				DD790F7B1D3370A900437A25 /* FMDatabase.m in Sources */,
+				DD790F861D33736200437A25 /* PrizeLevel.m in Sources */,
+				DD790F781D3370A900437A25 /* JKDBHelper.m in Sources */,
+				DD790F7E1D3370A900437A25 /* FMDatabaseQueue.m in Sources */,
+				DD790F7F1D3370A900437A25 /* FMResultSet.m in Sources */,
+				DD790F7D1D3370A900437A25 /* FMDatabasePool.m in Sources */,
+				DD790F791D3370A900437A25 /* JKDBModel.m in Sources */,
+				DD790F831D3370F100437A25 /* Person.m in Sources */,
+				DD790F2C1D336EB600437A25 /* AppDelegate.m in Sources */,
+				DD790F7C1D3370A900437A25 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F391D336EB600437A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD790F421D336EB600437A25 /* prizeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD790F441D336EB600437A25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD790F4D1D336EB600437A25 /* prizeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD790F3F1D336EB600437A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD790F261D336EB600437A25 /* prize */;
+			targetProxy = DD790F3E1D336EB600437A25 /* PBXContainerItemProxy */;
+		};
+		DD790F4A1D336EB600437A25 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD790F261D336EB600437A25 /* prize */;
+			targetProxy = DD790F491D336EB600437A25 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD790F351D336EB600437A25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD790F361D336EB600437A25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD790F4F1D336EB600437A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DD790F501D336EB600437A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DD790F521D336EB600437A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD790F531D336EB600437A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD790F551D336EB600437A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prize.app/Contents/MacOS/prize";
+			};
+			name = Debug;
+		};
+		DD790F561D336EB600437A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prizeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/prize.app/Contents/MacOS/prize";
+			};
+			name = Release;
+		};
+		DD790F581D336EB600437A25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = prize;
+			};
+			name = Debug;
+		};
+		DD790F591D336EB600437A25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = prizeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.prizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = prize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD790F221D336EB600437A25 /* Build configuration list for PBXProject "prize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD790F4F1D336EB600437A25 /* Debug */,
+				DD790F501D336EB600437A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD790F511D336EB600437A25 /* Build configuration list for PBXNativeTarget "prize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD790F521D336EB600437A25 /* Debug */,
+				DD790F531D336EB600437A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD790F541D336EB600437A25 /* Build configuration list for PBXNativeTarget "prizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD790F551D336EB600437A25 /* Debug */,
+				DD790F561D336EB600437A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD790F571D336EB600437A25 /* Build configuration list for PBXNativeTarget "prizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD790F581D336EB600437A25 /* Debug */,
+				DD790F591D336EB600437A25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD790F1F1D336EB600437A25 /* Project object */;
+}

@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD1121A71CD1F84800B1233D /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1121A31CD1F84800B1233D /* Person+CoreDataProperties.swift */; };
+		DD1121A81CD1F84800B1233D /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1121A41CD1F84800B1233D /* Person.swift */; };
+		DD1121A91CD1F84800B1233D /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1121A51CD1F84800B1233D /* Record+CoreDataProperties.swift */; };
+		DD1121AA1CD1F84800B1233D /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD1121A61CD1F84800B1233D /* Record.swift */; };
+		DD4D13271CCF329900DE98AF /* UIView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D13261CCF329900DE98AF /* UIView+CY.swift */; };
+		DD4D13291CCF376700DE98AF /* UITableView+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D13281CCF376700DE98AF /* UITableView+CY.swift */; };
+		DD4D132F1CCF394200DE98AF /* MainPersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D132E1CCF394200DE98AF /* MainPersonView.swift */; };
+		DD4D13311CCF395800DE98AF /* MainPersonView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4D13301CCF395800DE98AF /* MainPersonView.xib */; };
+		DD4D13331CCF492B00DE98AF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4D13321CCF492B00DE98AF /* EditViewController.swift */; };
+		DD895CFD1E13A7E600F97F1D /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD895CFC1E13A7E600F97F1D /* TestViewController.swift */; };
+		DDB25AF41CCDF02B00691626 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25AF31CCDF02B00691626 /* AppDelegate.swift */; };
+		DDB25AF61CCDF02B00691626 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25AF51CCDF02B00691626 /* ViewController.swift */; };
+		DDB25AF91CCDF02B00691626 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB25AF71CCDF02B00691626 /* Main.storyboard */; };
+		DDB25AFC1CCDF02B00691626 /* CYRecord.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDB25AFA1CCDF02B00691626 /* CYRecord.xcdatamodeld */; };
+		DDB25AFE1CCDF02B00691626 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDB25AFD1CCDF02B00691626 /* Assets.xcassets */; };
+		DDB25B011CCDF02B00691626 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB25AFF1CCDF02B00691626 /* LaunchScreen.storyboard */; };
+		DDB25B0C1CCDF02B00691626 /* CYRecordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25B0B1CCDF02B00691626 /* CYRecordTests.swift */; };
+		DDB25B171CCDF02B00691626 /* CYRecordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25B161CCDF02B00691626 /* CYRecordUITests.swift */; };
+		DDB25B261CCDF2B900691626 /* sb2.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDB25B241CCDF2B900691626 /* sb2.storyboard */; };
+		DDB25B321CCE10F600691626 /* UIViewController+CY.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25B311CCE10F600691626 /* UIViewController+CY.swift */; };
+		DDB25B361CCE1ADE00691626 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25B341CCE1ADE00691626 /* BaseViewController.swift */; };
+		DDB25B3A1CCE1CE800691626 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB25B391CCE1CE800691626 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDB25B081CCDF02B00691626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB25AE81CCDF02B00691626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB25AEF1CCDF02B00691626;
+			remoteInfo = CYRecord;
+		};
+		DDB25B131CCDF02B00691626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDB25AE81CCDF02B00691626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDB25AEF1CCDF02B00691626;
+			remoteInfo = CYRecord;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD1121A31CD1F84800B1233D /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DD1121A41CD1F84800B1233D /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		DD1121A51CD1F84800B1233D /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		DD1121A61CD1F84800B1233D /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
+		DD4D13261CCF329900DE98AF /* UIView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+CY.swift"; sourceTree = "<group>"; };
+		DD4D13281CCF376700DE98AF /* UITableView+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+CY.swift"; sourceTree = "<group>"; };
+		DD4D132E1CCF394200DE98AF /* MainPersonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPersonView.swift; sourceTree = "<group>"; };
+		DD4D13301CCF395800DE98AF /* MainPersonView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainPersonView.xib; sourceTree = "<group>"; };
+		DD4D13321CCF492B00DE98AF /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		DD895CFC1E13A7E600F97F1D /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		DDB25AF01CCDF02B00691626 /* CYRecord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CYRecord.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB25AF31CCDF02B00691626 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDB25AF51CCDF02B00691626 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DDB25AF81CCDF02B00691626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDB25AFB1CCDF02B00691626 /* CYRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CYRecord.xcdatamodel; sourceTree = "<group>"; };
+		DDB25AFD1CCDF02B00691626 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDB25B001CCDF02B00691626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDB25B021CCDF02B00691626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB25B071CCDF02B00691626 /* CYRecordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYRecordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB25B0B1CCDF02B00691626 /* CYRecordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYRecordTests.swift; sourceTree = "<group>"; };
+		DDB25B0D1CCDF02B00691626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB25B121CCDF02B00691626 /* CYRecordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CYRecordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDB25B161CCDF02B00691626 /* CYRecordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CYRecordUITests.swift; sourceTree = "<group>"; };
+		DDB25B181CCDF02B00691626 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDB25B251CCDF2B900691626 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/sb2.storyboard; sourceTree = "<group>"; };
+		DDB25B311CCE10F600691626 /* UIViewController+CY.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+CY.swift"; sourceTree = "<group>"; };
+		DDB25B341CCE1ADE00691626 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		DDB25B391CCE1CE800691626 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDB25AED1CCDF02B00691626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B041CCDF02B00691626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B0F1CCDF02B00691626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD9161621CD1EE370027C108 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD1121A31CD1F84800B1233D /* Person+CoreDataProperties.swift */,
+				DD1121A41CD1F84800B1233D /* Person.swift */,
+				DD1121A51CD1F84800B1233D /* Record+CoreDataProperties.swift */,
+				DD1121A61CD1F84800B1233D /* Record.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DDB25AE71CCDF02B00691626 = {
+			isa = PBXGroup;
+			children = (
+				DDB25AF21CCDF02B00691626 /* CYRecord */,
+				DDB25B0A1CCDF02B00691626 /* CYRecordTests */,
+				DDB25B151CCDF02B00691626 /* CYRecordUITests */,
+				DDB25AF11CCDF02B00691626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDB25AF11CCDF02B00691626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDB25AF01CCDF02B00691626 /* CYRecord.app */,
+				DDB25B071CCDF02B00691626 /* CYRecordTests.xctest */,
+				DDB25B121CCDF02B00691626 /* CYRecordUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDB25AF21CCDF02B00691626 /* CYRecord */ = {
+			isa = PBXGroup;
+			children = (
+				DD9161621CD1EE370027C108 /* Models */,
+				DDB25B2D1CCE03B900691626 /* Extensions */,
+				DDB25B2C1CCE039D00691626 /* Utils */,
+				DDB25B331CCE1ADE00691626 /* VC */,
+				DDB25B351CCE1ADE00691626 /* View */,
+				DDB25AF31CCDF02B00691626 /* AppDelegate.swift */,
+				DDB25AF51CCDF02B00691626 /* ViewController.swift */,
+				DDB25AF71CCDF02B00691626 /* Main.storyboard */,
+				DDB25B241CCDF2B900691626 /* sb2.storyboard */,
+				DDB25AFD1CCDF02B00691626 /* Assets.xcassets */,
+				DDB25AFF1CCDF02B00691626 /* LaunchScreen.storyboard */,
+				DDB25B021CCDF02B00691626 /* Info.plist */,
+				DDB25AFA1CCDF02B00691626 /* CYRecord.xcdatamodeld */,
+			);
+			path = CYRecord;
+			sourceTree = "<group>";
+		};
+		DDB25B0A1CCDF02B00691626 /* CYRecordTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB25B0B1CCDF02B00691626 /* CYRecordTests.swift */,
+				DDB25B0D1CCDF02B00691626 /* Info.plist */,
+			);
+			path = CYRecordTests;
+			sourceTree = "<group>";
+		};
+		DDB25B151CCDF02B00691626 /* CYRecordUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDB25B161CCDF02B00691626 /* CYRecordUITests.swift */,
+				DDB25B181CCDF02B00691626 /* Info.plist */,
+			);
+			path = CYRecordUITests;
+			sourceTree = "<group>";
+		};
+		DDB25B2C1CCE039D00691626 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		DDB25B2D1CCE03B900691626 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DDB25B311CCE10F600691626 /* UIViewController+CY.swift */,
+				DD4D13261CCF329900DE98AF /* UIView+CY.swift */,
+				DD4D13281CCF376700DE98AF /* UITableView+CY.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DDB25B331CCE1ADE00691626 /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				DDB25B341CCE1ADE00691626 /* BaseViewController.swift */,
+				DDB25B391CCE1CE800691626 /* SecondViewController.swift */,
+				DD4D13321CCF492B00DE98AF /* EditViewController.swift */,
+				DD895CFC1E13A7E600F97F1D /* TestViewController.swift */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		DDB25B351CCE1ADE00691626 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DD4D132E1CCF394200DE98AF /* MainPersonView.swift */,
+				DD4D13301CCF395800DE98AF /* MainPersonView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDB25AEF1CCDF02B00691626 /* CYRecord */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB25B1B1CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecord" */;
+			buildPhases = (
+				DDB25AEC1CCDF02B00691626 /* Sources */,
+				DDB25AED1CCDF02B00691626 /* Frameworks */,
+				DDB25AEE1CCDF02B00691626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CYRecord;
+			productName = CYRecord;
+			productReference = DDB25AF01CCDF02B00691626 /* CYRecord.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDB25B061CCDF02B00691626 /* CYRecordTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB25B1E1CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecordTests" */;
+			buildPhases = (
+				DDB25B031CCDF02B00691626 /* Sources */,
+				DDB25B041CCDF02B00691626 /* Frameworks */,
+				DDB25B051CCDF02B00691626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB25B091CCDF02B00691626 /* PBXTargetDependency */,
+			);
+			name = CYRecordTests;
+			productName = CYRecordTests;
+			productReference = DDB25B071CCDF02B00691626 /* CYRecordTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDB25B111CCDF02B00691626 /* CYRecordUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDB25B211CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecordUITests" */;
+			buildPhases = (
+				DDB25B0E1CCDF02B00691626 /* Sources */,
+				DDB25B0F1CCDF02B00691626 /* Frameworks */,
+				DDB25B101CCDF02B00691626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDB25B141CCDF02B00691626 /* PBXTargetDependency */,
+			);
+			name = CYRecordUITests;
+			productName = CYRecordUITests;
+			productReference = DDB25B121CCDF02B00691626 /* CYRecordUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDB25AE81CCDF02B00691626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "陈煜";
+				TargetAttributes = {
+					DDB25AEF1CCDF02B00691626 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+					};
+					DDB25B061CCDF02B00691626 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+						TestTargetID = DDB25AEF1CCDF02B00691626;
+					};
+					DDB25B111CCDF02B00691626 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0810;
+						TestTargetID = DDB25AEF1CCDF02B00691626;
+					};
+				};
+			};
+			buildConfigurationList = DDB25AEB1CCDF02B00691626 /* Build configuration list for PBXProject "CYRecord" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDB25AE71CCDF02B00691626;
+			productRefGroup = DDB25AF11CCDF02B00691626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDB25AEF1CCDF02B00691626 /* CYRecord */,
+				DDB25B061CCDF02B00691626 /* CYRecordTests */,
+				DDB25B111CCDF02B00691626 /* CYRecordUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDB25AEE1CCDF02B00691626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB25B261CCDF2B900691626 /* sb2.storyboard in Resources */,
+				DDB25B011CCDF02B00691626 /* LaunchScreen.storyboard in Resources */,
+				DDB25AFE1CCDF02B00691626 /* Assets.xcassets in Resources */,
+				DDB25AF91CCDF02B00691626 /* Main.storyboard in Resources */,
+				DD4D13311CCF395800DE98AF /* MainPersonView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B051CCDF02B00691626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B101CCDF02B00691626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDB25AEC1CCDF02B00691626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4D13331CCF492B00DE98AF /* EditViewController.swift in Sources */,
+				DDB25B3A1CCE1CE800691626 /* SecondViewController.swift in Sources */,
+				DDB25AF61CCDF02B00691626 /* ViewController.swift in Sources */,
+				DDB25B321CCE10F600691626 /* UIViewController+CY.swift in Sources */,
+				DD1121AA1CD1F84800B1233D /* Record.swift in Sources */,
+				DDB25AFC1CCDF02B00691626 /* CYRecord.xcdatamodeld in Sources */,
+				DD4D132F1CCF394200DE98AF /* MainPersonView.swift in Sources */,
+				DD1121A81CD1F84800B1233D /* Person.swift in Sources */,
+				DD4D13271CCF329900DE98AF /* UIView+CY.swift in Sources */,
+				DD1121A91CD1F84800B1233D /* Record+CoreDataProperties.swift in Sources */,
+				DD895CFD1E13A7E600F97F1D /* TestViewController.swift in Sources */,
+				DDB25AF41CCDF02B00691626 /* AppDelegate.swift in Sources */,
+				DDB25B361CCE1ADE00691626 /* BaseViewController.swift in Sources */,
+				DD4D13291CCF376700DE98AF /* UITableView+CY.swift in Sources */,
+				DD1121A71CD1F84800B1233D /* Person+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B031CCDF02B00691626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB25B0C1CCDF02B00691626 /* CYRecordTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDB25B0E1CCDF02B00691626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDB25B171CCDF02B00691626 /* CYRecordUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDB25B091CCDF02B00691626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB25AEF1CCDF02B00691626 /* CYRecord */;
+			targetProxy = DDB25B081CCDF02B00691626 /* PBXContainerItemProxy */;
+		};
+		DDB25B141CCDF02B00691626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDB25AEF1CCDF02B00691626 /* CYRecord */;
+			targetProxy = DDB25B131CCDF02B00691626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DDB25AF71CCDF02B00691626 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB25AF81CCDF02B00691626 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB25AFF1CCDF02B00691626 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB25B001CCDF02B00691626 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DDB25B241CCDF2B900691626 /* sb2.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDB25B251CCDF2B900691626 /* Base */,
+			);
+			name = sb2.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDB25B191CCDF02B00691626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDB25B1A1CCDF02B00691626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDB25B1C1CCDF02B00691626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DDB25B1D1CCDF02B00691626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CYRecord/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecord;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DDB25B1F1CCDF02B00691626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYRecord.app/CYRecord";
+			};
+			name = Debug;
+		};
+		DDB25B201CCDF02B00691626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CYRecordTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecordTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CYRecord.app/CYRecord";
+			};
+			name = Release;
+		};
+		DDB25B221CCDF02B00691626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CYRecord;
+			};
+			name = Debug;
+		};
+		DDB25B231CCDF02B00691626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CYRecordUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.abchenyu.CYRecordUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = CYRecord;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDB25AEB1CCDF02B00691626 /* Build configuration list for PBXProject "CYRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB25B191CCDF02B00691626 /* Debug */,
+				DDB25B1A1CCDF02B00691626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB25B1B1CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecord" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB25B1C1CCDF02B00691626 /* Debug */,
+				DDB25B1D1CCDF02B00691626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB25B1E1CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecordTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB25B1F1CCDF02B00691626 /* Debug */,
+				DDB25B201CCDF02B00691626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDB25B211CCDF02B00691626 /* Build configuration list for PBXNativeTarget "CYRecordUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDB25B221CCDF02B00691626 /* Debug */,
+				DDB25B231CCDF02B00691626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDB25AFA1CCDF02B00691626 /* CYRecord.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDB25AFB1CCDF02B00691626 /* CYRecord.xcdatamodel */,
+			);
+			currentVersion = DDB25AFB1CCDF02B00691626 /* CYRecord.xcdatamodel */;
+			path = CYRecord.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDB25AE81CCDF02B00691626 /* Project object */;
+}
