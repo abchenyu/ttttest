@@ -12,4 +12,4 @@ int main(int argc, const char * argv[]) {
     return NSApplicationMain(argc, argv);
 }
 
-11111
+00000
